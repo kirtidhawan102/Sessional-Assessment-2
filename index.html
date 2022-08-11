@@ -14,18 +14,18 @@
     <header>
         <nav class="navbar">
             <ul>
-                <li><a href="#" style="color:white;text-decoration:none;font-family:monosppace"  >iBLOG</a></li>
-                <li><a href="#" style="color:white;text-decoration:none" id="BLOG" >BLOG</a></li>
-                <li><a href="#" style="color:white;text-decoration:none">BLOG POST</a></li>
-                <li><a href="#" style="color:white;text-decoration:none">FOOTTER</a></li>
+                <li><a href="#"  ><img src="logo1.jpg" style="width:50px;height:50px"></a></li>
+                <li><a href="#blog" style="color:white;text-decoration:none" id="BLOG" >BLOG</a></li>
+                <li><a href="#post" style="color:white;text-decoration:none">BLOG POST</a></li>
+                
                  
                 
             </ul>
         </nav>
     </header>
-    
-    <section class="blog" >
-         <h1 style="color:white;font-size:90px;font-family: arial;text-align:center;margin-top:30px">THE HEAVEN FOR BLOGGERS</h1>
+    <hr>
+    <section id="blog" >
+         <h1 style="color:blueviolet;font-size:90px;font-family: arial;text-align:center;margin-top:30px">THE HEAVEN FOR BLOGGERS</h1>
          <hr> 
          <h5 id="display"style="display:none;color:grey;font-family:sans-serif;margin-top:50px;text-align:center">FEATURED ARTICLES</h5>
          <div id="container" style="width:100%;height:auto;display:flex;flex-direction:row;justify-content:space-around;flex-flow:wrap">
@@ -35,16 +35,21 @@
     </section>
 
     <hr>
-    <form>
-         <h3 style="text-align: center;">POST</h3>
-        <input type="text" placeholder="Userid" style="display:block;width:40%;margin-left:400px;margin-bottom:20px;">
-   
-        <input type="text" placeholder="title" style="display:block;width:40%;margin-bottom:20px;margin-left:400px ">
-       
-        <textarea name="description" placeholder="description" rows="6" cols="30" style="display:block;width:40%;margin-left:400px;margin-bottom:20px "></textarea>
-       <input type="submit" value="submit" style="margin-left:650px;padding:7px;font-family:verdana;background-color:blueviolet ;">
-    </form>
-    <p style="text-align:center;background-color:#C21B4E;margin-top:50px;font-family: Helvetica;height:50px;font-size:20px">MADE BY KIRTI DHAWAN</p>
+    <div class="form" id="post">
+        <h1 style="color:white;margin-top:400px">POST</h1>
+        <p>USER ID</p>
+        <input type="text" placeholder="USERID">
+        <p>TITLE</p>
+        <input type="text" placeholder="TITLE">
+        <p>DESCRIPTION</p>
+        <textarea name="description" placeholder="description" rows="6" cols="30" style="margin-left:500px" ></textarea>
+        <button type="submit" style="background-color: blueviolet;display:block">SUBMIT POST</button>
+    </div>
+
+    <div style="background-color: blueviolet;">
+        <h1 style="text-align: center; color:white;font-size: 20px;font-weight: 20px;margin-top:-200px">MADE BY KIRTI DHAWAN</h1>
+    </div>
+    
     <script src="./script.js"></script>
 </body>
 

@@ -11,3 +11,40 @@ body {
 .navbar ul{
     overflow:auto;
 }
+.form{
+    position:relative;
+    top:90%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.form h1{
+    font-size:40px;
+    text-align:center;
+    margin:40px 0;
+}
+.form p{
+    font-size:20px;
+    margin:15px 0;
+    margin-left:500px;
+}
+.form input{
+    font-size:16px;
+    padding:15px 10px;
+    width:30%;
+    border:0;
+    border-radius: 5px;
+    outline:none;
+    margin-left: 500px;
+}
+
+.form button{
+     font-size:18px;
+     font-weight:bold;
+     margin:20px 0;
+     padding: 10px 15px;
+    width:10%;
+    border:0;
+    border-radius: 5px;
+    margin-left: 500px;
+
+}
