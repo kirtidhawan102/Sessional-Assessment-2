@@ -32,8 +32,5 @@ document.querySelector("#BLOG").addEventListener('click',()=>{
         }
     }
     xhr.send();
-
-})
-document.querySelector("#BLOG").addEventListener('click',()=>{
-    document.getElementById("#display").style.display="inline";
+    
 })
