@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+}
+.navbar li{
+    float:left;
+    list-style:none;
+    color:white;
+    padding:25px 25px;
+}
+.navbar ul{
+    overflow:auto;
+}
