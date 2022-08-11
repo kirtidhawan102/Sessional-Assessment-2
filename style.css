@@ -6,6 +6,7 @@ body {
     list-style:none;
     color:white;
     padding:25px 25px;
+    font-family: Monospace;
 }
 .navbar ul{
     overflow:auto;
